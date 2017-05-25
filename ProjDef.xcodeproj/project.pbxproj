@@ -14,6 +14,10 @@
 		472AD7831ED5E36700666DA8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 472AD7811ED5E36700666DA8 /* LaunchScreen.storyboard */; };
 		472AD78E1ED5E36800666DA8 /* ProjDefTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 472AD78D1ED5E36800666DA8 /* ProjDefTests.swift */; };
 		472AD7991ED5E36800666DA8 /* ProjDefUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 472AD7981ED5E36800666DA8 /* ProjDefUITests.swift */; };
+		479B81311ED6CE660021A974 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 479B81301ED6CE660021A974 /* TableViewController.swift */; };
+		479B81331ED6D1D30021A974 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 479B81321ED6D1D30021A974 /* SettingsViewController.swift */; };
+		479B81351ED6D6920021A974 /* OrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 479B81341ED6D6920021A974 /* OrderViewController.swift */; };
+		479B81371ED6D8E10021A974 /* BuyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 479B81361ED6D8E10021A974 /* BuyViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		472AD7941ED5E36800666DA8 /* ProjDefUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProjDefUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		472AD7981ED5E36800666DA8 /* ProjDefUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjDefUITests.swift; sourceTree = "<group>"; };
 		472AD79A1ED5E36800666DA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		479B81301ED6CE660021A974 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		479B81321ED6D1D30021A974 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		479B81341ED6D6920021A974 /* OrderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderViewController.swift; sourceTree = "<group>"; };
+		479B81361ED6D8E10021A974 /* BuyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BuyViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +111,10 @@
 				472AD77F1ED5E36700666DA8 /* Assets.xcassets */,
 				472AD7811ED5E36700666DA8 /* LaunchScreen.storyboard */,
 				472AD7841ED5E36700666DA8 /* Info.plist */,
+				479B81301ED6CE660021A974 /* TableViewController.swift */,
+				479B81321ED6D1D30021A974 /* SettingsViewController.swift */,
+				479B81341ED6D6920021A974 /* OrderViewController.swift */,
+				479B81361ED6D8E10021A974 /* BuyViewController.swift */,
 			);
 			path = ProjDef;
 			sourceTree = "<group>";
@@ -260,7 +272,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				472AD77B1ED5E36700666DA8 /* ViewController.swift in Sources */,
+				479B81351ED6D6920021A974 /* OrderViewController.swift in Sources */,
+				479B81311ED6CE660021A974 /* TableViewController.swift in Sources */,
 				472AD7791ED5E36700666DA8 /* AppDelegate.swift in Sources */,
+				479B81331ED6D1D30021A974 /* SettingsViewController.swift in Sources */,
+				479B81371ED6D8E10021A974 /* BuyViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -503,6 +519,7 @@
 				472AD79F1ED5E36800666DA8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		472AD7A01ED5E36800666DA8 /* Build configuration list for PBXNativeTarget "ProjDefTests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +528,7 @@
 				472AD7A21ED5E36800666DA8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		472AD7A31ED5E36800666DA8 /* Build configuration list for PBXNativeTarget "ProjDefUITests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +537,7 @@
 				472AD7A51ED5E36800666DA8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
